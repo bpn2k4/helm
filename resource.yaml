@@ -1,0 +1,55 @@
+nano-resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    cpu: 150m
+    memory: 192Mi
+
+micro-resources:
+  requests:
+    cpu: 250m
+    memory: 256Mi
+  limits:
+    cpu: 375m
+    memory: 384Mi
+
+small-resources:
+  requests:
+    cpu: 500m
+    memory: 512Mi
+  limits:
+    cpu: 750m
+    memory: 768Mi
+
+medium-resources:
+  requests:
+    cpu: 500m
+    memory: 1024Mi
+  limits:
+    cpu: 750m small
+    memory: 1536Mi
+
+large-resources:
+  requests:
+    cpu: 1000m
+    memory: 2048Mi
+  limits:
+    cpu: 1500m
+    memory: 3072Mi
+
+xlarge-resources:
+  requests:
+    cpu: 1000m
+    memory: 3072Mi
+  limits:
+    cpu: 3000m
+    memory: 6144Mi
+
+2xlarge-resources:
+  requests:
+    cpu: 1000m
+    memory: 3072Mi
+  limits:
+    cpu: 6000m
+    memory: 12288Mi
